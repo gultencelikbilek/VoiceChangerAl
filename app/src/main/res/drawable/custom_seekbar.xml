@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- SeekBar Arkaplanı -->
+    <item android:id="@android:id/background">
+        <shape>
+            <solid android:color="#D3D3D3"/>
+            <size android:height="5dp"/>
+            <corners android:radius="10dp"/>
+        </shape>
+    </item>
+    <!-- SeekBar İlerlemesi -->
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <gradient
+                    android:startColor="#FFB377FF"
+                    android:endColor="#FFB377FF"
+                    android:type="linear"/>
+            </shape>
+        </clip>
+    </item>
+</layer-list>

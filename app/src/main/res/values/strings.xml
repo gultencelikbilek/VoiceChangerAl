@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">VoiceChangerAl</string>
+
+    <string name="welcome_text">Welcome to \n Voice Ai : Rap generator</string>
+    <string name="the_ultimate_text">The ultimate \n Rap Song generator experience.</string>
+    <string name="the_write_and_choose"> ·\t Write a prompt &amp; get lyrics  \n   \t   ·\t Choose a beat \n ·\tChoose your favorite rapper \n  \t  ·\tShare your creation </string>
+    <string name="try_premium">Try Premium!</string>
+    <string name="limited_ads">Limited Ads</string>
+    <string name="using_example_prompts">Using Example Prompts</string>
+    <string name="reach_alrappers_and_beats">Reach All Rappers and Beats</string>
+    <string name="lifetime">Lifetime</string>
+    <string name="dolar">$10</string>
+    <string name="privacy_policy"><u>Privacy Policy</u></string>
+    <string name="icon_dot">|</string>
+    <string name="restore_puchose"><u>Restore Purchase</u></string>
+    <string name="terms_of_us"><u>Terms of Use</u></string>
+    <string name="ai_voice">AI Voices</string>
+    <string name="start_here">Start here</string>
+    <string name="generate_al">Generate a rap song in a few \n easy steps!</string>
+    <string name="generate">Generate</string>
+    <string name="contiune">Contiune</string>
+    <string name="message">What should AI character say?</string>
+    <string name="meesagetwo">Write your prompts</string>
+    <string name="max_character">Max 250 Character</string>
+    <string name="number">250</string>
+    <string name="select_ai_voice">Select AI Voice</string>
+    <string name="see_all">See all ></string>
+    <string name="celebrity">Celebrity</string>
+    <string name="obama">Obama</string>
+    <string name="elon">Elon</string>
+    <string name="leo">Leo</string>
+    <string name="generating_ai_voice">Generating \n AI Voice</string>
+    <string name="please_wait">Please wait while we\'re generating your  song \n keep the app open</string>
+    <string name="kanye">Kanye</string>
+    <string name="setting">Settings</string>
+    <string name="premium">Premium</string>
+    <string name="share_app">Share app</string>
+    <string name="rate_us">Rate us</string>
+    <string name="contact_us">Contact us</string>
+    <string name="terms_of_service">Terms of service</string>
+    <string name="privacypolicy">Privacy policy</string>
+    <string name="start_number">00:00</string>
+    <string name="finish_number">00:00</string>
+    <string name="token_one">TM:xfhsty0w6tbh</string>
+    <string name="token_two">TM:awcvdnddh593</string>
+    <string name="token_three">TM:58vtv7x9f32c</string>
+    <string name="token_four">TM:fxq6hnfc3rht</string>
+    <string name="token_five">TM:tdesz2102t3b</string>
+    <string name="token_six">TM:qgmcccat9kq4</string>
+    <string name="token_seven">TM:knpfewyc2hts</string>
+    <string name="token_eight">TM:gq2ccx7hw3rm</string>
+    <string name="token_nine">TM:aan0b0bf4qhw</string>
+    <string name="token_ten">TM:zshmwvkwcp7n</string>
+    <string name="brad">Brad</string>
+    <string name="johnny">Johnny</string>
+    <string name="share">Share</string>
+    <string name="uuid">Uuid</string>
+    <string name="generation">Generation</string>
+    <string name="name">Name</string>
+    <string name="user_input_text">User input text</string>
+
+
+</resources>

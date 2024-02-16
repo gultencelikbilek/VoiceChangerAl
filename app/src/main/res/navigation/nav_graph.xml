@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/onboardingFragment">
+    <fragment
+        android:id="@+id/onboardingFragment"
+        android:name="com.okation.aivideocreator.onboarding.fragment.OnboardingFragment"
+        android:label="fragment_onboarding"
+        tools:layout="@layout/fragment_onboarding" >
+        <action
+            android:id="@+id/action_onboardingFragment_to_homeRevenucatFragment"
+            app:destination="@id/homeRevenucatFragment" />
+        <action
+            android:id="@+id/action_onboardingFragment_to_homeStartHereFragment"
+            app:destination="@id/homeStartHereFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/songGenerationFragment"
+        android:name="com.okation.aivideocreator.generation.fragment.SongGenerationFragment"
+        android:label="fragment_song_generation"
+        tools:layout="@layout/fragment_song_generation" >
+        <action
+            android:id="@+id/action_songGenerationFragment_to_songPlayingFragment"
+            app:destination="@id/songPlayingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/songPlayingFragment"
+        android:name="com.okation.aivideocreator.generation.fragment.SongPlayingFragment"
+        android:label="fragment_song_playing"
+        tools:layout="@layout/fragment_song_playing" >
+        <argument
+            android:name="vawAudio"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_songPlayingFragment_to_homeStartHereFragment"
+            app:destination="@id/homeStartHereFragment" />
+        <argument
+            android:name="image"
+            app:argType="integer" />
+        <argument
+            android:name="personname"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.okation.aivideocreator.home.fragment.SettingFragment"
+        android:label="fragment_setting"
+        tools:layout="@layout/fragment_setting" >
+        <action
+            android:id="@+id/action_settingFragment_to_homeStartHereFragment"
+            app:destination="@id/homeStartHereFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeRevenucatFragment"
+        android:name="com.okation.aivideocreator.inapp.HomeRevenucatFragment"
+        android:label="fragment_home_revenucate"
+        tools:layout="@layout/fragment_home_revenucate" >
+        <action
+            android:id="@+id/action_homeRevenucatFragment_to_homeStartHereFragment"
+            app:destination="@id/homeStartHereFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeStartHereFragment"
+        android:name="com.okation.aivideocreator.home.fragment.HomeStartHereFragment"
+        android:label="fragment_home_start_here"
+        tools:layout="@layout/fragment_home_start_here" >
+        <action
+            android:id="@+id/action_homeStartHereFragment_to_homeSelectFragment"
+            app:destination="@id/homeSelectFragment" />
+        <action
+            android:id="@+id/action_homeStartHereFragment_to_settingFragment"
+            app:destination="@id/settingFragment" />
+        <action
+            android:id="@+id/action_homeStartHereFragment_to_songPlayingFragment"
+            app:destination="@id/songPlayingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeSelectFragment"
+        android:name="com.okation.aivideocreator.home.fragment.HomeSelectFragment"
+        android:label="fragment_home_select"
+        tools:layout="@layout/fragment_home_select" >
+        <action
+            android:id="@+id/action_homeSelectFragment_to_songGenerationFragment"
+            app:destination="@id/songGenerationFragment" />
+        <action
+            android:id="@+id/action_homeSelectFragment_to_homeStartHereFragment"
+            app:destination="@id/homeStartHereFragment" />
+    </fragment>
+</navigation>
