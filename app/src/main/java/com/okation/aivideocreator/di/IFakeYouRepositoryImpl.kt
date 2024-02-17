@@ -7,7 +7,7 @@ import com.okation.aivideocreator.model.FakeYouEntity
 import com.okation.aivideocreator.model.FakeYouPostRequest
 import com.okation.aivideocreator.model.FakeYouResponse
 import com.okation.aivideocreator.model.StateResponse
-import com.okation.aivideocreator.home.repository.IFakeYouRepository
+import com.okation.aivideocreator.repository.IFakeYouRepository
 import retrofit2.Call
 import javax.inject.Inject
 

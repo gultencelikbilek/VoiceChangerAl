@@ -1,4 +1,4 @@
-package com.okation.aivideocreator.generation.viewmodel
+package com.okation.aivideocreator.activity
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel

@@ -1,4 +1,4 @@
-package com.okation.aivideocreator.onboarding.fragment
+package com.okation.aivideocreator.view.onboarding
 
 import android.content.Context
 import android.os.Bundle

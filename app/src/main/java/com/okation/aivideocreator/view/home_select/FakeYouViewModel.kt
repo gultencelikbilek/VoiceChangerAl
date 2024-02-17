@@ -1,4 +1,4 @@
-package com.okation.aivideocreator.home.viewmodel
+package com.okation.aivideocreator.view.home_select
 
 import android.util.Log
 import androidx.lifecycle.LiveData

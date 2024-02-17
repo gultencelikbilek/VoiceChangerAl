@@ -1,4 +1,4 @@
-package com.okation.aivideocreator.home.fragment
+package com.okation.aivideocreator.view.home_start
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -11,9 +11,8 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.okation.aivideocreator.R
 import com.okation.aivideocreator.databinding.FragmentHomeStartHereBinding
-import com.okation.aivideocreator.home.adapter.HomeAdapter
-import com.okation.aivideocreator.generation.viewmodel.SharedViewModel
-import com.okation.aivideocreator.home.viewmodel.FakeYouViewModel
+import com.okation.aivideocreator.activity.SharedViewModel
+import com.okation.aivideocreator.view.home_select.FakeYouViewModel
 import com.okation.aivideocreator.utils.navigateIfCurrentDestination
 import dagger.hilt.android.AndroidEntryPoint
 

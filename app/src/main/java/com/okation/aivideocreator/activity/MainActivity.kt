@@ -7,7 +7,7 @@ import androidx.activity.viewModels
 import androidx.navigation.fragment.NavHostFragment
 import com.okation.aivideocreator.R
 import com.okation.aivideocreator.databinding.ActivityMainBinding
-import com.okation.aivideocreator.inapp.PaymentViewModel
+import com.okation.aivideocreator.view.inapp.PaymentViewModel
 import com.okation.aivideocreator.utils.Constants.GOOGLE_API_KEY
 import com.revenuecat.purchases.LogLevel
 import com.revenuecat.purchases.Purchases

@@ -1,4 +1,4 @@
-package com.okation.aivideocreator.generation.fragment
+package com.okation.aivideocreator.view.song_playing
 
 import android.content.Context
 import android.content.Intent
@@ -18,7 +18,6 @@ import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.okation.aivideocreator.R
 import com.okation.aivideocreator.databinding.FragmentSongPlayingBinding
-import com.okation.aivideocreator.generation.fragment.SongPlayingFragmentArgs
 import com.okation.aivideocreator.utils.StringConstants
 import com.okation.aivideocreator.utils.navigateIfCurrentDestination
 import dagger.hilt.android.AndroidEntryPoint

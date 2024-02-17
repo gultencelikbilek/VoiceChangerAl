@@ -1,4 +1,4 @@
-package com.okation.aivideocreator.generation.fragment
+package com.okation.aivideocreator.view.songeneration
 
 import android.content.Context
 import android.content.SharedPreferences
@@ -11,12 +11,11 @@ import androidx.fragment.app.activityViewModels
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import com.okation.aivideocreator.R
-import com.okation.aivideocreator.generation.viewmodel.SharedViewModel
-import com.okation.aivideocreator.generation.viewmodel.SongGenerationViewModel
+import com.okation.aivideocreator.activity.SharedViewModel
+import com.okation.aivideocreator.view.song_playing.SongGenerationViewModel
 import com.okation.aivideocreator.model.FakeYouEntity
-import com.okation.aivideocreator.home.viewmodel.FakeYouViewModel
+import com.okation.aivideocreator.view.home_select.FakeYouViewModel
 import com.okation.aivideocreator.databinding.FragmentSongGenerationBinding
-import com.okation.aivideocreator.generation.fragment.SongGenerationFragmentDirections
 import com.okation.aivideocreator.utils.StringConstants
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.runBlocking

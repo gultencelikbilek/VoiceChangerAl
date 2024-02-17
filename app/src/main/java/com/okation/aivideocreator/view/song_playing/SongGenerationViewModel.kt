@@ -1,4 +1,4 @@
-package com.okation.aivideocreator.generation.viewmodel
+package com.okation.aivideocreator.view.song_playing
 
 import android.util.Log
 import androidx.lifecycle.LiveData

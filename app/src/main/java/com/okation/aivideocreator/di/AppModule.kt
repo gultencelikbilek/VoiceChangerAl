@@ -4,7 +4,7 @@ import android.content.Context
 import androidx.room.Room
 import com.okation.aivideocreator.api.FakeYouApiService
 import com.okation.aivideocreator.database.FakeYouDatabase
-import com.okation.aivideocreator.home.repository.IFakeYouRepository
+import com.okation.aivideocreator.repository.IFakeYouRepository
 import com.okation.aivideocreator.utils.Constants
 import dagger.Module
 import dagger.Provides

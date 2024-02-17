@@ -1,4 +1,4 @@
-package com.okation.aivideocreator.home.adapter
+package com.okation.aivideocreator.view.home_select
 
 import android.content.Context
 import android.view.LayoutInflater

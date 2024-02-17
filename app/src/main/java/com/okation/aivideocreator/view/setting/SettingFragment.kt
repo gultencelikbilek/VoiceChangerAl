@@ -1,4 +1,4 @@
-package com.okation.aivideocreator.home.fragment
+package com.okation.aivideocreator.view.setting
 
 import android.content.Context
 import android.content.Intent

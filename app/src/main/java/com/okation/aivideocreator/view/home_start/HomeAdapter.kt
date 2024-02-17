@@ -1,13 +1,12 @@
-package com.okation.aivideocreator.home.adapter
+package com.okation.aivideocreator.view.home_start
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.okation.aivideocreator.R
-import com.okation.aivideocreator.databinding.HomeRowAdapterBinding
 import com.okation.aivideocreator.model.FakeYouEntity
+import com.okation.aivideocreator.databinding.HomeRowAdapterBinding
 import com.okation.aivideocreator.utils.Constants
 
 class HomeAdapter : RecyclerView.Adapter<HomeAdapter.HomeViewHolder>() {

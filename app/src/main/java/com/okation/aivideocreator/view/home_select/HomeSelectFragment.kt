@@ -1,4 +1,4 @@
-package com.okation.aivideocreator.home.fragment
+package com.okation.aivideocreator.view.home_select
 
 import android.content.Context
 import android.content.SharedPreferences
@@ -14,11 +14,9 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import com.okation.aivideocreator.R
 import com.okation.aivideocreator.databinding.FragmentHomeSelectBinding
-import com.okation.aivideocreator.generation.viewmodel.SharedViewModel
-import com.okation.aivideocreator.home.adapter.FakeYouAdapter
+import com.okation.aivideocreator.activity.SharedViewModel
 import com.okation.aivideocreator.model.FakeYouPostRequest
 import com.okation.aivideocreator.model.VoiceResponse
-import com.okation.aivideocreator.home.viewmodel.FakeYouViewModel
 import com.okation.aivideocreator.utils.StringConstants
 import com.okation.aivideocreator.utils.navigateIfCurrentDestination
 import dagger.hilt.android.AndroidEntryPoint

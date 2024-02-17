@@ -1,4 +1,4 @@
-package com.okation.aivideocreator.home.repository
+package com.okation.aivideocreator.repository
 
 import androidx.lifecycle.LiveData
 import com.okation.aivideocreator.model.FakeYouEntity

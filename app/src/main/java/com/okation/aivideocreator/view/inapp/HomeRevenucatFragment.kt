@@ -1,4 +1,4 @@
-package com.okation.aivideocreator.inapp
+package com.okation.aivideocreator.view.inapp
 
 import android.content.Context
 import android.content.Intent
